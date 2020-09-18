@@ -1,3 +1,5 @@
+#include<emp.h>
+
 int main()
 {
 FILE * fp;
