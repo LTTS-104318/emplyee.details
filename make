@@ -2,9 +2,7 @@
 SRC = main.c\
 src/e1.c\
 
-INC = -Iunity\
--Iinc\
--Itest
+INC = -Iinc
 
 PROJECT_NAME = been.out
 
@@ -13,8 +11,7 @@ $(PROJECT_NAME): $(SRC)
 
 run:$(PROJECT_NAME)
 	./${PROJECT_NAME}
-doc:
-	make -C documentation
+
 
 clean:
 	rm -rf $(PROJECT_NAME) documentation/html
