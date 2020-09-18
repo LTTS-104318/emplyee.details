@@ -1,6 +1,6 @@
   
 SRC = main.c\
-src/e1.c
+src/e1.c\
 
 INC = -Iunity\
 -Iinc\
