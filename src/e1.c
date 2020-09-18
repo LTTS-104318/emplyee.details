@@ -1,3 +1,4 @@
+#include<emp.h>
 void add(FILE * fp)
 {
 printHead();
